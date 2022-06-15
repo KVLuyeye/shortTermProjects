@@ -1,0 +1,91 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  background-color: rgba(78, 78, 174, 0.249);
+  color: white;
+  text-align: left;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: 'Lexend Deca', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3;
+}
+
+* body h3 {
+  font-size: larger;
+}
+
+* body .sedans {
+  background-color: #e38826;
+}
+
+* body .sedans button {
+  color: rgba(227, 136, 38, 0.754);
+  width: 85%;
+  border: 1px transparent;
+  border-radius: 34%;
+  padding: 6%;
+  margin: 5%;
+}
+
+* body .sedans button:hover {
+  -webkit-transition: width 4px, 2s;
+  transition: width 4px, 2s;
+  background: rgba(255, 255, 255, 0.757);
+}
+
+* body .suv {
+  background-color: #006970;
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 20%;
+          column-gap: 20%;
+}
+
+* body .suv button {
+  color: #006970;
+  width: 85%;
+  border: 1px transparent;
+  border-radius: 34%;
+  padding: 6%;
+  margin: 5%;
+}
+
+* body .suv button:hover {
+  background: rgba(255, 255, 255, 0.757);
+}
+
+* body .luxury {
+  background-color: #004241;
+}
+
+* body .luxury button {
+  color: #004241;
+  width: 85%;
+  border: 1px transparent;
+  border-radius: 34%;
+  padding: 6%;
+  margin: 5%;
+}
+
+* body .luxury button:hover {
+  background: rgba(255, 255, 255, 0.757);
+}
+
+* body .attribution {
+  position: absolute;
+  bottom: 1%;
+  right: 25%;
+  left: 25%;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,86 @@
+$bgcolor: rgba(78, 78, 174, 0.249);
+$hovercolor: rgba(255, 255, 255, 0.757); 
+
+* {
+box-sizing: border-box;
+
+body {
+    background-color: $bgcolor;
+   color: white;
+   text-align:left;
+   justify-content: flex-end;
+    font-family:'Lexend Deca', sans-serif;
+    display: flex;
+   flex-direction: row;
+    gap: 3;
+
+    h3{
+    font-size:larger;
+    }
+
+    .sedans {
+    background-color:  hsl(31, 77%, 52%);
+
+            button { 
+            color:  hsla(31, 77%, 52%, 0.754);
+            width: 85%;
+            border:1px transparent;
+            border-radius: 34%;
+            padding: 6%;
+            margin: 5%; ;
+            
+
+            &:hover {
+                transition:width 4px, 2s;
+                background: $hovercolor;
+            }
+        }
+    }
+
+    .suv {
+        background-color: hsl(184, 100%, 22%);
+        display: grid ;
+       column-gap: 20%;
+    
+        button { 
+            color: hsl(184, 100%, 22%);
+            width: 85%;
+            border:1px transparent;
+            border-radius: 34%;
+            padding: 6%;
+            margin: 5%; 
+            
+
+            &:hover {
+                background: $hovercolor;
+            }
+        }
+    }
+
+    .luxury {
+       background-color: hsl(179, 100%, 13%);
+       button { 
+        color: hsl(179, 100%, 13%);
+        width: 85%;
+        border:1px transparent;
+        border-radius: 34%;
+        padding: 6%;
+        margin: 5%; ;
+        
+    
+        &:hover {
+            background: $hovercolor;
+            }
+        }
+    }
+
+    .attribution {
+//text-decoration: none;
+        position: absolute;
+        bottom: 1%;
+        right: 25%;
+        left: 25%;
+    }
+}
+
+}
