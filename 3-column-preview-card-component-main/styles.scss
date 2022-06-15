@@ -1,5 +1,17 @@
+//General
 $bgcolor: rgba(78, 78, 174, 0.249);
-$hovercolor: rgba(255, 255, 255, 0.757); 
+$padding-inner: 30px;
+$padding-topbot: 40px;
+$height:450px;
+$width:250px; 
+
+//Button
+$borderadius-button: 36px;
+$buttonheight: 50px;
+$buttonwidth: 150px;
+$hovercolor: rgba(255, 255, 255, 0.757);
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * {
 box-sizing: border-box;
@@ -8,25 +20,36 @@ body {
     background-color: $bgcolor;
    color: white;
    text-align:left;
-   justify-content: flex-end;
-    font-family:'Lexend Deca', sans-serif;
-    display: flex;
+   justify-content:center;
+   font-family:'Lexend Deca', sans-serif;
+   display: flex;
    flex-direction: row;
-    gap: 3;
+    
 
     h3{
     font-size:larger;
     }
 
+
     .sedans {
     background-color:  hsl(31, 77%, 52%);
+    display: grid ;
+    row-gap: 5px;
+    padding-left: $padding-inner;
+    padding-right:$padding-inner;
+    padding-top: $padding-topbot;
+    padding-bottom: $padding-topbot;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: $height;
+        width: $width;
 
             button { 
             color:  hsla(31, 77%, 52%, 0.754);
-            width: 85%;
+            width: $buttonwidth;
             border:1px transparent;
-            border-radius: 34%;
-            padding: 6%;
+            border-radius: $borderadius-button;
+            padding: 3%;
             margin: 5%; ;
             
 
@@ -40,17 +63,23 @@ body {
     .suv {
         background-color: hsl(184, 100%, 22%);
         display: grid ;
-       column-gap: 20%;
-    
+       row-gap: 5px;
+       height: $height;
+       width: $width;
+       padding-left: $padding-inner;
+       padding-right:$padding-inner;
+       padding-top: $padding-topbot;
+       padding-bottom: $padding-topbot;
+
         button { 
             color: hsl(184, 100%, 22%);
-            width: 85%;
+            width: $buttonwidth;
             border:1px transparent;
-            border-radius: 34%;
-            padding: 6%;
+            border-radius: $borderadius-button;
+            padding: 3%;
             margin: 5%; 
-            
-
+            border-radius: $borderadius-button;            
+         
             &:hover {
                 background: $hovercolor;
             }
@@ -58,13 +87,26 @@ body {
     }
 
     .luxury {
-       background-color: hsl(179, 100%, 13%);
+        background-color: hsl(179, 100%, 13%);
+        display: grid ;
+        row-gap: 5px;
+        height: $height;
+        width: $width;
+       
+       padding-left: $padding-inner;
+       padding-right:$padding-inner;
+       padding-top: $padding-topbot;
+       padding-bottom: $padding-topbot;
+
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;
+
        button { 
         color: hsl(179, 100%, 13%);
-        width: 85%;
+        width: $buttonwidth;
         border:1px transparent;
-        border-radius: 34%;
-        padding: 6%;
+        border-radius: $borderadius-button;
+        padding: 3%;
         margin: 5%; ;
         
     
@@ -73,14 +115,3 @@ body {
             }
         }
     }
-
-    .attribution {
-//text-decoration: none;
-        position: absolute;
-        bottom: 1%;
-        right: 25%;
-        left: 25%;
-    }
-}
-
-}
