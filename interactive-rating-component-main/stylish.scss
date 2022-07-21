@@ -1,0 +1,115 @@
+//General
+$borderradius:20px;
+$bgcolor:#252d37;
+$divpadd:30px;
+$divwidth: 300px;
+$divheight:280px;
+$textcolor:#959eac;
+
+
+*{
+    font-family: sans-serif;
+
+    body{
+        color: hsl(217, 12%, 63%);
+background-color: hsl(216, 12%, 8%);
+font-size:15px; 
+display: grid;
+            
+        h3{
+            color: white;
+            font-size:x-large;
+        }
+        
+        .rating-comp{ 
+            background-color:$bgcolor ;
+            border-radius:$borderradius ;
+            margin: 7px;
+            padding: $divpadd;
+            width: $divwidth;
+            height: $divheight;
+            justify-self: center;
+            text-align: left;
+           
+              
+            .answerbtn{
+                    background-color:$bgcolor ;
+                    border: $textcolor solid 1px;
+                    color: $textcolor;
+                    border-radius: 16px;
+                    height: 30px;
+                    width: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    margin-left: 1em;
+                    margin-right: 1em;
+                    padding: 5px;
+                }
+                #star{
+                 border-radius: 100%;
+                 padding: 7px;
+
+
+                }
+
+                #selection{
+                    width: 300px;
+                    border-radius: 40px;
+                }
+
+                #submitbtn{
+                    background-color: #fb7413;
+                    color: white;
+                    width: 300px;
+                    height: 40px;
+                    margin: 8px;
+                    border-radius: 25px;
+                    font-weight: 700;
+                    border: none;
+                    
+                   &:hover{
+                        background-color: white;
+                        color: #fb7413;
+                    }
+                }
+        }
+
+        .result {
+          
+        text-align: center;
+        justify-self: center;
+            background-color: $bgcolor;
+            border-radius: $borderradius;
+            margin: 7px;
+            padding: $divpadd;
+            width: $divwidth;
+            height: $divheight;
+
+            p{
+                color:hsl(25, 97%, 53%) ;
+                border: solid thin $textcolor;
+                border-radius: 16px;  
+                padding: 8px;          
+                width: 280px;
+                background-color: hsl(213, 20%, 18%);
+            }
+
+            
+
+        }
+
+        .attribution{
+            position: fixed;
+            bottom: 0%;
+            font-size: 11px; 
+            text-align: center;
+
+            a{
+                color: hsl(228, 45%, 44%);
+            }
+        }
+        
+    }
+
+
+}

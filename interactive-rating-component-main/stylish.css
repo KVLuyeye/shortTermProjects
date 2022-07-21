@@ -1,0 +1,85 @@
+* {
+  font-family: sans-serif;
+}
+* body {
+  color: hsl(217deg, 12%, 63%);
+  background-color: hsl(216deg, 12%, 8%);
+  font-size: 15px;
+  display: grid;
+}
+* body h3 {
+  color: white;
+  font-size: x-large;
+}
+* body .rating-comp {
+  background-color: #252d37;
+  border-radius: 20px;
+  margin: 7px;
+  padding: 30px;
+  width: 300px;
+  height: 280px;
+  justify-self: center;
+  text-align: left;
+}
+* body .rating-comp .answerbtn {
+  background-color: #252d37;
+  border: #959eac solid 1px;
+  color: #959eac;
+  border-radius: 16px;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 5px;
+}
+* body .rating-comp #star {
+  border-radius: 100%;
+  padding: 7px;
+}
+* body .rating-comp #selection {
+  width: 300px;
+  border-radius: 40px;
+}
+* body .rating-comp #submitbtn {
+  background-color: #fb7413;
+  color: white;
+  width: 300px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 25px;
+  font-weight: 700;
+  border: none;
+}
+* body .rating-comp #submitbtn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+* body .result {
+  text-align: center;
+  justify-self: center;
+  background-color: #252d37;
+  border-radius: 20px;
+  margin: 7px;
+  padding: 30px;
+  width: 300px;
+  height: 280px;
+}
+* body .result p {
+  color: hsl(25deg, 97%, 53%);
+  border: solid thin #959eac;
+  border-radius: 16px;
+  padding: 8px;
+  width: 280px;
+  background-color: hsl(213deg, 20%, 18%);
+}
+* body .attribution {
+  position: fixed;
+  bottom: 0%;
+  font-size: 11px;
+  text-align: center;
+}
+* body .attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=stylish.css.map */
